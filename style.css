@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header button {
+    color: magenta;
+    background-color: whitesmoke;
+    border-color: magenta;
+    border: 10px;
+    border-style: solid;
+    width: 500px;
+    height: 500px;
+}
