@@ -2,12 +2,32 @@
     margin: 0;
     padding: 0;
 }
-header button {
-    color: magenta;
-    background-color: whitesmoke;
-    border-color: magenta;
-    border: 10px;
+nav ul li a {
+    color: yellow;
+    font-size: 50px;
+    font-family: cursive;
+    text-decoration: none;
+    border-color: darkmagenta;
+    transition:all .5s;
+}
+nav ul li a:active {
+    opacity: .2;
+}
+nav ul li a:hover {
+    background-image: linear-gradient(to top, darkmagenta, black);
+    border-radius: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+}
+nav ul {
+    background-color: black;
+    border: 3px;
     border-style: solid;
-    width: 500px;
-    height: 500px;
+}
+body img {
+    width: 1848px;
 }
