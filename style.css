@@ -21,13 +21,19 @@ nav ul{
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    
-}
-nav ul {
     background-color: black;
     border: 3px;
     border-style: solid;
 }
-body img {
-    width: 1848px;
+#second_nav {
+    display: none;
+    color: black;
+}
+@media screen and (max-width: 1000px) {
+    #second_nav {
+        display: block;
+    }
+    nav ul li{
+        display: none;
+    }
 }
